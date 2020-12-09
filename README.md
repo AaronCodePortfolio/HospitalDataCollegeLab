@@ -1,2 +1,5 @@
 # HospitalDataCollegeLab
  
+This was a lab done as part of my Application Development Capstone class.  The purpose was to build a system that would handle patient data for a hospital.  The challenge was to do research on HIPAA compliance and then build a system that was compliant with these regulations.  This included things like encrypting data, limiting access to data, secure login, and obfuscated data.  Because this was a school project there were limitations like it having to be submitted in one package and a short amount of time to work on it.  Due to these limitations, there were a few unfortunate shortcuts that had to be taken like storing the encryption key in a raw text file, debug text still being displayed on the UI, and using the built-in admin user "root" to access the database.
+
+This project was built using a WAMP server.  The hippo_crates_general.sql file can be used with the built-in phpMyAdmin MySQL to create the hippo_crates_general database used by the webpage.  The login information for the webpage is Username: test password: password.
